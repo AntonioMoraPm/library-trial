@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AntonioMoraPm/react-component"
+    "url": "https://github.com/AntonioMoraPm/library-trial"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
