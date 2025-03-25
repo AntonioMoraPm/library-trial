@@ -2,7 +2,7 @@
   "name": "library-trial",
   "version": "0.0.1",
   "type": "module",
-  "main": "./dist/library-trial",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
@@ -30,9 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AntonioMoraPm/library-trial"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
