@@ -1,5 +1,5 @@
 {
-  "name": "library-trial",
+  "name": "library-components-trial",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.js",
