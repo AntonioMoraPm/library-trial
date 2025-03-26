@@ -11,9 +11,13 @@
     },
     "./components/Button": {
       "import": "./dist/components/Button/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/components/Button/index.d.ts"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/style.css": "./dist/style.css",
+    "./components/Input": {
+      "import": "./dist/components/Input/index.js",
+      "types": "./dist/components/Input/index.d.ts"
+    }
   },
   "files": [
     "dist"
@@ -21,7 +25,7 @@
   "sideEffects": false,
   "scripts": {
     "dev": "vite",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run build && node scripts/update-exports.js",
     "build": "tsc --p ./tsconfig-build.json && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

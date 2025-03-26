@@ -11,7 +11,7 @@ export default defineConfig({
         react(),
         dts({
             include: ["lib"],
-            rollupTypes: true,
+            rollupTypes: false,
             tsconfigPath: "./tsconfig-build.json",
             insertTypesEntry: true, // Crea un entry para los tipos
         }),
