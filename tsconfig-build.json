@@ -22,6 +22,11 @@
       "noFallthroughCasesInSwitch": true,
       "noUncheckedSideEffectImports": true,
       "baseUrl": ".",
+
+      "outDir": "./dist",
+      "declaration": true,
+      "declarationDir": "./dist",
+      "emitDeclarationOnly": true,
     },
     "include": ["lib"],
     "exclude": ["node_modules", "dist", "**/*.stories.tsx"]

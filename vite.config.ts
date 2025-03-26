@@ -13,7 +13,7 @@ export default defineConfig({
             include: ["lib"],
             rollupTypes: true,
             tsconfigPath: "./tsconfig-build.json",
-            
+            insertTypesEntry: true, // Crea un entry para los tipos
         }),
     ],
     build: {
