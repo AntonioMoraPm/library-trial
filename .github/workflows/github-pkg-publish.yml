@@ -20,7 +20,7 @@ jobs:
                   node-version: "20"
                   registry-url: 'https://npm.pkg.github.com'
 
-            - name: Install Dependencies
+            - name: Install Dependencie
               run: npm install
             - name: Check version
               id: check
