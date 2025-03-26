@@ -12,6 +12,14 @@
     "./components/*": {
       "import": "./dist/components/*/index.js",
       "types": "./dist/components/*/index.d.ts"
+    },
+    "./components/Button": {
+      "import": "./dist/components/Button/index.js",
+      "types": "./dist/components/Button/index.d.ts"
+    },
+    "./components/Input": {
+      "import": "./dist/components/Input/index.js",
+      "types": "./dist/components/Input/index.d.ts"
     }
   },
   "files": [
