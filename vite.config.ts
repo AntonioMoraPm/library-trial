@@ -47,6 +47,7 @@ export default defineConfig({
                 assetFileNames: "assets/[name][extname]",
                 entryFileNames: "[name].js",
                 preserveModules: true,
+                preserveModulesRoot: "lib"
             },
         },
     },
